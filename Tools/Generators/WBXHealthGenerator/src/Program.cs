@@ -62,7 +62,7 @@ namespace WBXHealthGenerator {
 
         static void Main(string[] args) {
 
-            #region Constants
+            #region Constants1111
 
             string PROCESS_ID = Process.GetCurrentProcess().Id.ToString();
             const string COUNTER_NAME = "Health Generator";

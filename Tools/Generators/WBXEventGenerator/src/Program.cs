@@ -1,4 +1,3 @@
-﻿using System;
 using System;
 using System.IO;
 using System.Threading;
@@ -20,7 +19,7 @@ namespace WBXEventGenerator {
         private const string DATA_COLLECTOR_FILE_DATA_LINE = "{0},{1}";
         private const string DATA_COLLECTOR_FILE_ERROR_LINE = "{0},ERROR: {1}";
 
-        //// Create base event for updating
+        // Create base event for updating
         private const string BASE_EVENT =
             "<root>" +
                 "<baminfo>" +
